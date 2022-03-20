@@ -14,6 +14,8 @@ h1 {
 	background-color: lightpink;
 	border-color: black;
 	border-width: 1px;
+	position: relative;
+	left: 50px;
 }
 
 .beef {
@@ -24,6 +26,8 @@ h1 {
 	background-color: orangered;
 	border-color: black;
 	border-width: 1px;
+	position: relative;
+	left: 50px;
 }
 
 .chicken {
@@ -34,6 +38,8 @@ h1 {
 	background-color: lightyellow;
 	border-color: black;
 	border-width: 1px;
+	position: relative;
+	left: 50px;
 }
 
 p {
@@ -43,4 +49,6 @@ p {
 	font-family: Lucida Console, Verdana, sans-serif;
 	text-align: left;
 	color: black;
+	padding: 20px 10px 10px 10px;
+	box-sizing: border-box;
 }
