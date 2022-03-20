@@ -6,7 +6,21 @@ h1 {
 	text-align: center;
 }
 
-.chicken {
+div#container1 #container2 #container3 {
+	background-color: lightgray;
+	border-color: black;
+	border-width: 1px;
+	padding: 20px 10px 10px 10px;
+	box-sizing: border-box;
+}
+
+p#p1 #p2 #p3 {
+	font-family: Lucida Console, Verdana, sans-serif;
+	text-align: left;
+	color: black;
+}
+
+h2#chicken {
 	color:  black;
 	font-family: Playfair, Georgia, serif;
 	font-size: 18px;
@@ -18,7 +32,7 @@ h1 {
 	left: 50px;
 }
 
-.beef {
+h2#beef {
 	color:  floralwhite;
 	font-family: Playfair, Georgia, serif;
 	font-size: 18px;
@@ -30,7 +44,7 @@ h1 {
 	left: 50px;
 }
 
-.chicken {
+h2#chicken {
 	color:  black;
 	font-family: Playfair, Georgia, serif;
 	font-size: 18px;
@@ -40,15 +54,4 @@ h1 {
 	border-width: 1px;
 	position: relative;
 	left: 50px;
-}
-
-p {
-	background-color: lightgray;
-	border-color: black;
-	border-width: 1px;
-	font-family: Lucida Console, Verdana, sans-serif;
-	text-align: left;
-	color: black;
-	padding: 20px 10px 10px 10px;
-	box-sizing: border-box;
 }
