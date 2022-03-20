@@ -1,3 +1,6 @@
-body {
-	font-color: blue;
+h1 {
+	color: black;
+	font-family: Playfair, Georgia, serif;
+	font-weight: bold;
+	text-align: center;
 }
