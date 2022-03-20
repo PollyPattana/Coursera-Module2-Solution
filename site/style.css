@@ -6,7 +6,13 @@ h1 {
 	text-align: center;
 }
 
-div#container1 #container2 #container3 {
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding 0
+}
+
+div#container1 {
 	background-color: lightgray;
 	border-color: black;
 	border-width: 1px;
@@ -20,7 +26,7 @@ p#p1 #p2 #p3 {
 	color: black;
 }
 
-h2#chicken {
+div,h2 .chicken {
 	color:  black;
 	font-family: Playfair, Georgia, serif;
 	font-size: 18px;
@@ -32,7 +38,7 @@ h2#chicken {
 	left: 50px;
 }
 
-h2#beef {
+div,h2 .beef {
 	color:  floralwhite;
 	font-family: Playfair, Georgia, serif;
 	font-size: 18px;
@@ -44,7 +50,7 @@ h2#beef {
 	left: 50px;
 }
 
-h2#chicken {
+div,h2 .sushi {
 	color:  black;
 	font-family: Playfair, Georgia, serif;
 	font-size: 18px;
